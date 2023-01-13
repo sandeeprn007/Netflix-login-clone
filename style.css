@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(imges/pic.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 100%;
+}
+.header img {
+    width: 200px;
+}
+.registerBlock {
+    color: white;
+    width: 450px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.753);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paddingBlock {
+    background-color: rgba(0, 0, 0, 0);
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.306);
+}
+.inputs {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.inputs input {
+    background-color: #454545;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    padding: 5px;
+    height: 35px;
+
+}
+.footer {
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.button button {
+    width: 100%;
+    height: 45px;
+    background-color: #ff0707ed;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.checkboxBlock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.more:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+.isNew {
+    columns: #0a030300;
+}
+.signUpNow:hover {
+    text-decoration:underline ;
+
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    background-color:  rgba(16, 2, 2, 0.795);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+.footer a {
+    color: hsla(0, 6%, 58%, 0.667);
+    text-decoration: none;
+    cursor: pointer;
+  
+}
+}
+.block2 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+}
+.block3 {   
+    display: flex;
+    justify-content: space-between;
+    width: 43%;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
